@@ -75,7 +75,7 @@ nav > ul li a{
 /* Main styles statrs */
 main{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 /* Teams css starts */
@@ -109,6 +109,14 @@ main{
     font-weight: 700;
 }
 
+.teams_content .teams_des{
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
 
 
 
@@ -124,7 +132,7 @@ main{
     }
 
     
-    nav{
+    nav, .teams_container{
         flex-direction: column;
     }
 
@@ -137,6 +145,16 @@ main{
     .banner_content .banner_title{
         font-size: 3rem;
     }
+
+
+    .team_img_container{
+        grid-template-columns: 1fr; 
+    }
+
+    .teams_content{
+        padding: 0 20px ;
+    }
+   
     
 }
 
@@ -148,7 +166,7 @@ main{
         padding: 50px;
     }
     
-    nav{
+    nav, .teams_container{
         flex-direction: column;
     }
 
