@@ -72,12 +72,42 @@ nav > ul li a{
 }
 
 
+/* Main styles statrs */
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+/* Teams css starts */
 
+.teams_container{
+    display: flex;
+    align-items: center;
+}
 
+.team_img_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
 
+.teams_content{
+    padding: 0 70px ;
+}
 
+.teams_content .team_title{
+    font-size: 2.5rem;
+}
 
+.teams_content .team_title .quick{
+    color: #727272;
+    font-weight: 500;
+}
+
+.teams_content .team_title .text_feat{
+    color: #FF900E;
+    font-weight: 700;
+}
 
 
 
