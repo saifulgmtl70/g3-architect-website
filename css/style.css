@@ -118,6 +118,76 @@ main{
 }
 
 
+/* Feature section css starts */
+.feature{
+    margin-top: 120px;
+    display: flex;
+    gap: 50px;
+}
+
+.feature_content .featuire_title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+    border-left: 4px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature_content .text_lightgrey{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.feature_content .card{
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 8px 4px 30px 8px rgba(202, 198, 198, 0.25);
+    padding: 20px;
+    margin: 20px 0;
+
+} 
+
+.feature_content .card h4{
+    color: #131313;
+    font-size: 20px;
+}
+
+.feature_content .card > p{
+    color: #727272;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.feature_img img{
+    width: 620px;
+    height: 980px;
+}
+
+.experience_bacth{
+    background-color: #FF900E;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 340px;
+    padding: 40px;
+}
+
+.experience_bacth h2{
+    font-size: 60px;
+
+}
+
+.experience_bacth p{
+
+}
+
 /* Facts css started */
 
 .facts h3{
@@ -198,6 +268,8 @@ main{
     color: #424242;
     font-size: 17px;
 }
+
+
 
 
 
